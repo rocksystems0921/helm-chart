@@ -1,0 +1,55 @@
+apiVersion: v1
+entries:
+  haproxy:
+  - annotations:
+      artifacthub.io/changes: |
+        - Update base image to HAProxy 3.3.1
+        - Fix image references to fully qualified path
+        - Fixes podLabels does not work in the deployment file (#324)
+    apiVersion: v2
+    appVersion: 3.3.1
+    created: "2026-02-25T16:44:15.429202343+09:00"
+    description: A Helm chart for HAProxy on Kubernetes
+    digest: 7642a3d5eb0d9cf5d6d3e46a2118442bf2c34852b327a18152d0822e8db6eb1c
+    home: https://github.com/haproxytech/helm-charts/tree/main/haproxy
+    icon: https://raw.githubusercontent.com/haproxytech/helm-charts/main/haproxy/chart-icon.png
+    keywords:
+    - haproxy
+    kubeVersion: '>=1.17.0-0'
+    maintainers:
+    - email: dkorunic@haproxy.com
+      name: Dinko Korunic
+    name: haproxy
+    sources:
+    - http://www.haproxy.org/
+    type: application
+    urls:
+    - https://rocksystems0921.github.io/helm-chart/haproxy-1.28.0.tgz
+    version: 1.28.0
+  haproxy-helm:
+  - annotations:
+      artifacthub.io/changes: |
+        - Update base image to HAProxy 3.3.1
+        - Fix image references to fully qualified path
+        - Fixes podLabels does not work in the deployment file (#324)
+    apiVersion: v2
+    appVersion: 3.3.1
+    created: "2026-02-25T16:44:15.4364206+09:00"
+    description: A Helm chart for HAProxy on Kubernetes
+    digest: b7957f1fb19677ad752ffabae2a34866e93a90d8d2724f237d41e49e170f4a90
+    home: https://github.com/haproxytech/helm-charts/tree/main/haproxy
+    icon: https://raw.githubusercontent.com/haproxytech/helm-charts/main/haproxy/chart-icon.png
+    keywords:
+    - haproxy
+    kubeVersion: '>=1.17.0-0'
+    maintainers:
+    - email: dkorunic@haproxy.com
+      name: Dinko Korunic
+    name: haproxy-helm
+    sources:
+    - http://www.haproxy.org/
+    type: application
+    urls:
+    - https://rocksystems0921.github.io/helm-chart/haproxy-helm-1.28.0.tgz
+    version: 1.28.0
+generated: "2026-02-25T16:44:15.416774985+09:00"
